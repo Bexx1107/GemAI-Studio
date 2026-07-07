@@ -1,5 +1,5 @@
 // ── GemAI Studio — Client-side Pricing & Usage Tracking ────────
-// Ported from DMD Studio's usageTracker.js (July 2026 pricing)
+// (July 2026 pricing logic)
 
 // ── Model Pricing (per 1M tokens) ──────────────────────────────
 const PRICING = {
