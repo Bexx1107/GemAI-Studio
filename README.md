@@ -2,8 +2,6 @@
 
 **GemAI Studio** is a premium, glassmorphic AI image generation platform powered by the **Google Gemini API**. Designed for speed, aesthetics, and precision, it provides a high-end interface for creating cinematic visuals with real-time feedback.
 
-![GemAI Studio Banner](https://github.com/Bexx1107/GemAI-Studio/blob/main/public/banner.png?raw=true)
-
 ## ✨ Features
 
 - **🍌 The Banana Family**: Support for the full suite of Gemini image models:
