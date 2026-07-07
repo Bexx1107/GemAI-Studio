@@ -62,4 +62,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-Built with ❤️ by [Bexx](https://github.com/Bexx1107).
+Built by [Bexx](https://github.com/Bexx1107).
