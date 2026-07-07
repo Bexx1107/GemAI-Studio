@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍌 GemAI Studio
 
-## Getting Started
+**GemAI Studio** is a premium, glassmorphic AI image generation platform powered by the **Google Gemini API**. Designed for speed, aesthetics, and precision, it provides a high-end interface for creating cinematic visuals with real-time feedback.
 
-First, run the development server:
+![GemAI Studio Banner](https://github.com/Bexx1107/GemAI-Studio/blob/main/public/banner.png?raw=true)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **🍌 The Banana Family**: Support for the full suite of Gemini image models:
+  - **Banana Lite**: Fastest & cheapest (1K only).
+  - **Banana**: Balanced speed and quality.
+  - **Banana 2**: Next-gen fidelity.
+  - **Banana Pro**: Studio-quality output (up to 4K).
+- **🌗 Dynamic Themes**: 
+  - **Dark Mode**: Sleek glassmorphic UI with cyan and purple accents.
+  - **Light Mode**: A refreshing **Lime & Watermelon** theme on a cream background.
+- **💰 Live Cost Estimation**: Real-time token and price prediction before you generate.
+- **🖼️ Advanced Controls**: Precise aspect ratio selection, resolution locking, and image count settings.
+- **📂 Local-First Gallery**: Your history and API keys are stored securely in your browser's `localStorage`.
+- **✨ Reference Images**: Multimodal support—use existing images as visual DNA for your generations.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js 18.x or later
+- A [Google Gemini API Key](https://aistudio.google.com/app/apikey)
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Bexx1107/GemAI-Studio.git
+   cd gemai-studio
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Open in browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Set your API Key**:
+   Enter your Gemini API key in the sidebar to begin generating.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Logic**: Vanilla JavaScript / React
+- **Styling**: Modern CSS (Glassmorphism, CSS Grid, Flexbox)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **AI Engine**: [Google Generative AI SDK](https://github.com/google/generative-ai-js)
+
+## ⚖️ License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+Built with ❤️ by [Bexx](https://github.com/Bexx1107).
