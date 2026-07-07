@@ -54,7 +54,6 @@
 - **Logic**: Vanilla JavaScript / React
 - **Styling**: Modern CSS (Glassmorphism, CSS Grid, Flexbox)
 - **Icons**: [Lucide React](https://lucide.dev/)
-- **AI Engine**: [Google GenAI SDK](https://github.com/googleapis/js-genai)
 
 ## ⚖️ License
 
